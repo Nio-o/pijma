@@ -650,6 +650,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@playwright/test@npm:^1.23.4":
+  version: 1.23.4
+  resolution: "@playwright/test@npm:1.23.4"
+  dependencies:
+    "@types/node": "npm:*"
+    playwright-core: "npm:1.23.4"
+  bin:
+    playwright: cli.js
+  checksum: b860dabf0014c4bc1117e103b6aeeddcf49cbc71e072fdcc1e16ca54a663ef2f442460312d6f41e047b2a0ffb31ddeab6172af313dd2818e14ab75296a49fbb4
+  languageName: node
+  linkType: hard
+
 "@popperjs/core@npm:^2.9.0":
   version: 2.11.5
   resolution: "@popperjs/core@npm:2.11.5"
@@ -833,6 +845,8 @@ __metadata:
 "@qiwi/pijma@workspace:.":
   version: 0.0.0-use.local
   resolution: "@qiwi/pijma@workspace:."
+  dependencies:
+    "@playwright/test": "npm:^1.23.4"
   languageName: unknown
   linkType: soft
 
@@ -7948,6 +7962,15 @@ __metadata:
   dependencies:
     find-up: "npm:^3.0.0"
   checksum: 98db94ac40bd11694516ed7298bb971f38a064ec78e0d123a159d0056791834611289f9588313e573c65f07268d565c4550ec1463ddc24008bc453505afac996
+  languageName: node
+  linkType: hard
+
+"playwright-core@npm:1.23.4":
+  version: 1.23.4
+  resolution: "playwright-core@npm:1.23.4"
+  bin:
+    playwright: cli.js
+  checksum: 7bedeaf9040f4db38e09cca59b02ded35ce8a900d105257b7bf4197b94865926ab21e6bbf7a94d915b05bc5fe0d8c5710e5a4e11ef648b0e5727c10ba7be952b
   languageName: node
   linkType: hard
 
